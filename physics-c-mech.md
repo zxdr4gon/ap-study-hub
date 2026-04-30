@@ -585,20 +585,3 @@ $$\Phi_B = NBA\cos(\omega t) \quad \Rightarrow \quad \mathcal{E} = NBA\omega\sin
 
 ---
 
----
-
-# Cross-Unit Synthesis: Maxwell's Equations
-
-At the end of AP Physics C E&M, you have derived all four of Maxwell's equations:
-
-$$\oint \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\varepsilon_0} \tag{Gauss — Electric}$$
-
-$$\oint \vec{B} \cdot d\vec{A} = 0 \tag{Gauss — Magnetic}$$
-
-$$\oint \vec{E} \cdot d\vec{\ell} = -\frac{d\Phi_B}{dt} \tag{Faraday}$$
-
-$$\oint \vec{B} \cdot d\vec{\ell} = \mu_0 I_{\text{enc}} \tag{Ampere}$$
-
-Together, these four equations — plus the Lorentz force law $\vec{F} = q(\vec{E} + \vec{v}\times\vec{B})$ — completely describe **all of classical electromagnetism**. Every result in this guide is a consequence of these five relationships. When in doubt on the exam, trace any formula back to whichever Maxwell equation it comes from. That's the mark of true mastery.
-
-**Good luck — you've got this.** 🎯
