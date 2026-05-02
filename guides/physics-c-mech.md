@@ -826,7 +826,33 @@ $$T^2 = \frac{4\pi^2}{GM}a^3 \quad\text{(Kepler's Third Law; }a\text{ = semi-maj
 - **"Weightlessness" in orbit does not mean zero gravity.** The gravitational force is very much present — it provides centripetal acceleration. Astronauts are in free fall, which gives the sensation of weightlessness.
 
 ---
+---
 
+# Unit 8: Experimental Design & Data Analysis
+
+## 1. The Power of Linearization
+The College Board frequently provides non-linear data and asks you to "plot a graph that yields a straight line" to find a physical constant. You must manipulate the governing equation into $y = mx + b$ form.
+
+| Relationship | Equation | $y$-axis | $x$-axis | Slope ($m$) |
+|---|---|---|---|---|
+| **Period of Pendulum** | $T = 2\pi\sqrt{L/g}$ | $T^2$ | $L$ | $4\pi^2/g$ |
+| **Spring Potential** | $U_s = \frac{1}{2}kx^2$ | $U_s$ | $x^2$ | $k/2$ |
+| **Orbital Period** | $T^2 = (\frac{4\pi^2}{GM})r^3$ | $T^2$ | $r^3$ | $4\pi^2/GM$ |
+| **Kinetic Energy** | $K = \frac{1}{2}mv^2$ | $K$ | $v^2$ | $m/2$ |
+
+## 2. Graphing Best Practices
+* **Line of Best Fit:** Never "connect the dots." Draw a smooth straight line with roughly equal points above and below.
+* **Calculating Slope:** Use two points *on your best-fit line* that are far apart. **Never** use original data points unless they happen to lie exactly on the line.
+* **Intercepts:** If the line doesn't pass through the origin when it should, identify potential **systematic errors** (e.g., a "tare" error on a scale or friction not accounted for).
+
+## 3. Potential Energy Curves $U(x)$
+FRQs often ask you to interpret a graph of $U(x)$ vs. $x$.
+* **Force:** $F = -dU/dx$ (The negative of the slope).
+* **Equilibrium:** $dU/dx = 0$ (The "flat" parts of the graph).
+* **Stability:** A local minimum is a stable equilibrium; a local maximum is unstable.
+* **Turning Points:** If an object has total energy $E_{tot}$, it can only exist where $U(x) \leq E_{tot}$. The points where $U(x) = E_{tot}$ are the turning points ($K=0$).
+
+---
 ---
 
 # Cross-Unit Synthesis: High-Yield Connections
